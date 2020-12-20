@@ -15,7 +15,6 @@ Sub StockMarketData()
     Dim beginningYear As Long
     Dim endYear As Long
     
-    
     'Extra variables for max and min purposes
     
     Dim maxPercentage As Double
@@ -30,9 +29,7 @@ Sub StockMarketData()
     Dim workSheetCounter As Integer
     workSheetCounter = Application.Worksheets.Count
     
-    'Initialize dates
-    beginningYear = 20160101
-    endYear = 20161230
+    'Initialize ticker string
     Ticker = "initializing"
     
     'For loop to iterate through all worksheets
